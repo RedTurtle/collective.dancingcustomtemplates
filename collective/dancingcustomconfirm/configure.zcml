@@ -11,18 +11,25 @@
   
   <genericsetup:registerProfile
       name="default"
-      title="SeD: Custom confirm email"
+      title="Singing and Dancing: Custom confirm email"
       directory="profiles/default"
       description="Install profile SeD: Custom confirm email"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
         
-  <!-- monkey patch to fix HTMLComposer -->
+  <!-- monkey patch to fix subscription HTMLComposer -->
     <monkey:patch
         description="patch to fix the default confirm mail template"
         class="collective.dancing.composer.HTMLComposer"
         original="render_confirmation"
         replacement=".monkey.render_confirmation"
         />
-  
+
+  <!-- monkey patch to fix forgot HTMLComposer -->
+    <monkey:patch
+        description="patch to fix the default forgot mail template"
+        class="collective.dancing.composer.HTMLComposer"
+        original="render_forgot_secret"
+        replacement=".monkey.render_forgot_secret"
+        />
 </configure>

@@ -1,8 +1,11 @@
 Introduction
 ============
-A customization for *Singing&Dancing* that allows to easily customize subscription confirm email.
+A customization for *Singing&Dancing* that allows to easily customize subscription confirm and forgot email.
 
 If there is a registered view with the id "*confirm_newsletter_subscription*", this is used as mail template, otherwise is used S&D default template.
+
+If there is a registered view with the id "*forgot_newsletter_subscription*", this is used as mail template, otherwise is used S&D default template.
+
 
 Dependencies
 ============
