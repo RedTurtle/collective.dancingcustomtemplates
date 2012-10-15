@@ -3,16 +3,19 @@ import os
 
 version = '1.0.0'
 
-setup(name='collective.dancingcustomconfirm',
+setup(name='collective.dancingcustomtemplates',
       version=version,
-      description="A product that customize subscription's confirm email for S&D",
+      description="A product that customize some templates for S&D",
       long_description=open("README.txt").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Framework :: Plone",
         "Programming Language :: Python",
+        "Framework :: Plone",
+        "Framework :: Plone :: 3.3",
+        "Framework :: Plone :: 4.0",
+        "Framework :: Plone :: 4.2",
         "Topic :: Software Development :: Libraries :: Python Modules",
         ],
       keywords='newsletter custom singing dancing',

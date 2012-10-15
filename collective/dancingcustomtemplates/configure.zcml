@@ -5,7 +5,7 @@
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     xmlns:i18n="http://namespaces.zope.org/i18n"
     xmlns:monkey="http://namespaces.plone.org/monkey"
-    i18n_domain="collective.dancingcustomconfirm">
+    i18n_domain="collective.dancingcustomtemplates">
 
   <five:registerPackage package="." initialize=".initialize" />
   
@@ -13,7 +13,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Singing and Dancing: Custom confirm email"
+      title="Singing and Dancing: Custom templates"
       directory="profiles/default"
       description="Install profile SeD: Custom confirm email"
       provides="Products.GenericSetup.interfaces.EXTENSION"
