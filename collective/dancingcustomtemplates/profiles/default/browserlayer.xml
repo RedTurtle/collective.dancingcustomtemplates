@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
 <layers>
-  <layer name="collective.dancingcustomconfirm"
-         interface="collective.dancingcustomconfirm.browser.interfaces.IDancingCustomConfirmLayer" />
+  <layer name="collective.dancingcustomtemplates"
+         interface="collective.dancingcustomtemplates.browser.interfaces.IDancingCustomTemplatesLayer" />
 </layers>
