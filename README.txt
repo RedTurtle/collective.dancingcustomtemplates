@@ -10,7 +10,7 @@ If there is a registered view with the id "*forgot_newsletter_subscription*", th
 Dependencies
 ============
 
-This product has been tested on Plone 3.3.5 (feedback on Plone 4 tests are welcome)
+This product has been tested on Plone 3.3.5 and Plone 4.2.
 
 Credits
 =======
