@@ -6,7 +6,7 @@ version = '1.0.1.dev0'
 setup(name='collective.dancingcustomtemplates',
       version=version,
       description="A product that customize some templates for S&D",
-      long_description=open("README.txt").read() + "\n" +
+      long_description=open("README.rst").read() + "\n" +
                        open(os.path.join("docs", "HISTORY.txt")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
