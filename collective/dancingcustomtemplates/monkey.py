@@ -2,7 +2,12 @@ from collective.dancing import utils
 from collective.dancing import MessageFactory as _
 from zope.i18n import translate
 import string
-from zope.app.component.hooks import getSite
+try:
+    # Plone < 4.3
+    from zope.app.component.hooks import getSite
+except ImportError:
+    # Plone >= 4.3
+    from zope.component.hooks import getSite
 from collective.dancing.composer import template_var
 from collective.singing.mail import create_html_mail
 from collective.singing.message import Message

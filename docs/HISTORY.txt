@@ -4,10 +4,10 @@ Changelog
 1.0.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Plone 4.3 compatibility [cekk]
 
 
 1.0.0 (2012-11-09)
 ------------------
 
-* initial import [micecchi]
+* initial import [cekk]
